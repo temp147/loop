@@ -1,0 +1,30 @@
+{
+  "name": "salaryCard",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "cardId": {
+      "type": "string",
+      "required": true
+    },
+    "personId": {
+      "type": "number",
+      "required": true
+    },
+    "bank": {
+      "type": "string",
+      "required": true
+    },
+    "active": {
+      "type": "boolean",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
