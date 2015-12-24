@@ -26,7 +26,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "salaryCards": {
+      "type": "hasMany",
+      "model": "salaryCard",
+      "foreignKey": "personId"
+    }
+  },
   "acls": [],
   "methods": {}
 }

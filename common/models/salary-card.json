@@ -24,7 +24,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "personInfo": {
+      "type": "belongsTo",
+      "model": "personInfo",
+      "foreignKey": "personId"
+    }
+  },
   "acls": [],
   "methods": {}
 }
