@@ -39,5 +39,9 @@
   "salaryCard": {
     "dataSource": "mysqlDBs",
     "public": true
+  },
+  "personInfoOdoo": {
+    "dataSource": "odooDS",
+    "public": true
   }
 }
