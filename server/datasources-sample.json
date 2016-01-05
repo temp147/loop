@@ -11,5 +11,24 @@
     "database": "test",
     "username": "",
     "password": ""
+  },
+  "odooDS": {
+    "url": "http://10.66.1.189:7789/",
+    "name": "odooDS",
+    "connector": "soap",
+    "wsdl": "http://10.66.1.189:7789/?wsdl",
+    "remotingEnabled": true,
+    "operations": {
+      "personInfo": {
+        "service": "PersonSoapService",
+        "port": "Application",
+        "operation": "get_person_info"
+      },
+      "personInfoObject": {
+        "service": "PersonSoapService",
+        "port": "Application",
+        "operation": "get_person_object"
+      }
+    }
   }
 }
